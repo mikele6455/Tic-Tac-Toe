@@ -1,1 +1,1 @@
-# Project-Street-Cred
+# Project Delta in personal planning
