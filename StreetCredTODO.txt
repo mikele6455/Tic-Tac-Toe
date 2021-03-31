@@ -1,0 +1,80 @@
+Created by Michael Le (dhle@lcmail.lcsc.edu) 2021
+
+==========
+
+This project aims to recreate the game tic tac toe/jeopardy hybrid on a computer using C++ 
+where players must answer programming questions correctly in order to place their piece.
+
+This edition will be on a 3x3 grid.
+
+(Put the ASCII art in a separate function file)
+
+==========
+
+Requirements:
+
+- Proper menu and title screen for the game.
+
+- A short tutorial on how to play the game.
+
+- Users are prompted to choose which mode they wish to play.
+
+- Users are prompted to enter their names.
+
+- Program displays the current board state which is upated in real time.
+
+- Program keeps track of the current score and declare the victor.
+
+- A clean exit of the program
+
+- (Extra) Make the program able to be ran and connected from two different computers
+
+- (Extra) More game modes like pass the baton (where teams are able to nominate a member to represent them
+  and then they cannot be nominated again (max of 4 on a team)) This mode's inclusion is highly dependent on
+  the number of club members/participant.
+
+- (Extra) Another separate game mode where the game is just jeopardy and no tic tac toe.
+
+- (Extra) Create a graphical user interface for the game.
+
+**The key in order to make this project complete is organization, meaning create different files for separate funtions
+and importing them instead of making a mess out of the code.**
+
+==========
+
+To do list / Design (In no particular order, prioritization is specified [1-5] where 1 is the highest and 5 is completed):
+
+- Put this on Git. [1]
+
+- Create a class/structure to store elements. (?)
+
+- Create and intialize a function to draw an initial gird for the game, using vectors or arrays to store elements. [1]
+
+- Create a system where the players are allowed to pick which square they want to mark corresponding to the array. [1]
+
+- Create a function that flips a coin and/or rock paper scissors to determine which player goes first. [3]
+
+- Create a function to randomly select questions from an external text file and appended them to random squares inside
+  the grid. [2]
+
+- Create a question bank for the game, varied in difficulty. [3]
+
+- Write an algorithm to check whether or not a player has successfully completed an answer or not, if the player's answer
+  is correct then mark the square accordingly and if not passes the turn to the following player. The answer check will probably
+  be manual since verifying the validity of code is very difficult and is on a case by case basis. [1]
+
+- Write a function that offers a choice of modes for the game and keep track of score (bo1,bo3,bo5) and also outputs/updates
+  a text file that keep tracks of all the previous matches. [3]
+
+- Write a switch case/menu to view different features that the game offers (see above) and also a graphical title screen (ASCII art?). [4]
+
+- Allow players to input player names which should be displayed during game alongside which mark they are using.
+  (For a challenge also and a profanity filter) [4]
+
+- (Extra): Online multiplayer
+
+- (Extra): Jeopardy and Relay (See "Extra" section in requirements)
+
+- (Extra): GUI 
+
+==========
