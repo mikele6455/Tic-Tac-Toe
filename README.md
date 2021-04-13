@@ -1,1 +1,1 @@
-# Project Delta in personal planning
+# Tic Tac Toe in C++
